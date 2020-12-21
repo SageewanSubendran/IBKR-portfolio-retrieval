@@ -1,0 +1,120 @@
+-> GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+<- 200 GET /sso/Login?forwardTo=22&RL=1&ip2loc=US
+-> GET /stylesheet/web/bootstrap.v3.3.6.css
+-> GET /stylesheet/web/bootstrap-switch.v3.3.2.min.css
+<- 200 GET /stylesheet/web/bootstrap.v3.3.6.css
+-> GET /stylesheet/web/font-awesome.v4.7.0.css
+<- 200 GET /stylesheet/web/bootstrap-switch.v3.3.2.min.css
+-> GET /stylesheet/web/switchery.min.css
+<- 200 GET /stylesheet/web/font-awesome.v4.7.0.css
+-> GET /stylesheet/web/ib-common.css
+<- 200 GET /stylesheet/web/switchery.min.css
+-> GET /stylesheet/web/login.css
+<- 200 GET /stylesheet/web/ib-common.css
+<- 200 GET /stylesheet/web/login.css
+-> GET /sso/Templates/otp-responsive.css?1608518526129
+-> GET /scripts/common/js/2015/jquery.min.js
+<- 200 GET /sso/Templates/otp-responsive.css?1608518526129
+-> GET /scripts/common/js/2015/bootstrap.min.js
+<- 200 GET /scripts/common/js/2015/jquery.min.js
+<- 200 GET /scripts/common/js/2015/bootstrap.min.js
+-> GET /scripts/common/js/2015/bootstrap-switch.min.js
+<- 200 GET /scripts/common/js/2015/bootstrap-switch.min.js
+-> GET /scripts/common/js/switchery.min.js
+-> GET /sso/CombineFiles
+<- 200 GET /scripts/common/js/switchery.min.js
+-> GET /images/2015/btn-app-apple.png
+<- 200 GET /images/2015/btn-app-apple.png
+-> GET /images/2015/btn-app-google.png
+<- 200 GET /images/2015/btn-app-google.png
+-> GET /images/2015/btn-app-tws.png
+<- 200 GET /sso/CombineFiles
+<- 200 GET /images/2015/btn-app-tws.png
+-> GET /images/2015/button_discover_apis.png
+<- 200 GET /images/2015/button_discover_apis.png
+-> GET /images/2015/template/logo-ib-ibkr-txtwht.svg
+-> GET /images/2015/template/logo-ib-ibkr-txtblk.svg
+<- 200 GET /images/2015/template/logo-ib-ibkr-txtwht.svg
+-> GET /fonts/Proxima-Nova-Light.woff2
+-> GET /fonts/fontawesome-webfont.woff2?v=4.6.1
+-> GET /fonts/Proxima-Nova-Semibold.woff2
+-> GET /fonts/Proxima-Nova-Regular.woff2
+<- 200 GET /images/2015/template/logo-ib-ibkr-txtblk.svg
+<- 200 GET /fonts/Proxima-Nova-Light.woff2
+<- 200 GET /fonts/fontawesome-webfont.woff2?v=4.6.1
+<- 200 GET /fonts/Proxima-Nova-Regular.woff2
+<- 200 GET /fonts/Proxima-Nova-Semibold.woff2
+-> GET /images/2015/template/home-screen-icon-128x128.png
+<- 200 GET /images/2015/template/home-screen-icon-128x128.png
+-> POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?41612
+<- 200 POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?41612
+-> POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?45156
+<- 200 POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?45156
+-> POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?83626
+<- 200 POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?83626
+-> POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?21520
+<- 200 POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?21520
+-> POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?84680
+<- 200 POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?84680
+-> POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?51782
+<- 200 POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?51782
+-> POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?40911
+<- 200 POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?40911
+-> POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?84366
+<- 200 POST /sso/Authenticator;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1?84366
+-> POST /sso/Dispatcher;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1
+<- 302 POST /sso/Dispatcher;jsessionid=724B0A2AD926AA4A1F96CA7C8B55DB53.cwwwdamsso1
+-> request: /v1/api/sso/validate?gw=1
+-> request: /AccountManagement/OneBarAuthentication?json=1
+-> GET /AccountManagement/OneBarAuthentication?json=1,404|223ms
+-> GET /v1/api/sso/validate?gw=1,200|300ms
+-> request: /v1/api/one/user
+-> request: /sso/AuthenticateSSODH?ACTION=INIT
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=INIT
+-> request: /sso/AuthenticateSSODH?ACTION=COMPLETE&B=9eba28e287e024f40ef751efc594a18cf90b17f41cc1e9257513b5c268c7ed69bd6bf517b4f9490d1df12d1ea0d0f185a6f9df731ce9710d145a83038502999&CHRESPONSE=71bf654d9d56e6c04330bd53cf9aeaed95c1f7ae
+-> sso GET https://api.ibkr.com/sso/AuthenticateSSODH?ACTION=COMPLETE&B=9eba28e287e024f40ef751efc594a18cf90b17f41cc1e9257513b5c268c7ed69bd6bf517b4f9490d1df12d1ea0d0f185a6f9df731ce9710d145a83038502999&CHRESPONSE=71bf654d9d56e6c04330bd53cf9aeaed95c1f7ae
+-> GET /v1/api/one/user,200|1458ms
+-> request: /v1/api/iserver/auth/status
+-> GET /v1/api/iserver/auth/status,200|71ms
+-> request: /v1/api/iserver/auth/ssodh/init
+-> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/init,200|208ms
+-> request: /v1/api/iserver/auth/ssodh/response
+-> POST https://api.ibkr.com/v1/api/iserver/auth/ssodh/response,200|105ms
+-> request: /v1/api/iserver/accounts
+-> GET /v1/api/iserver/accounts,200|61ms
+-> GET /v1/portal/portfolio/accounts
+<- 200 GET /v1/portal/portfolio/accounts
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|232ms
+-> GET /v1/portal/one/user
+<- 200 GET /v1/portal/one/user
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|67ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|271ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|254ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|259ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|281ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|253ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|302ms
+-> GET /v1/portal/portfolio/accounts
+<- 200 GET /v1/portal/portfolio/accounts
+-> GET /v1/portal/iserver/auth/status
+<- 200 GET /v1/portal/iserver/auth/status
+-> GET /v1/portal/iserver/accounts
+<- 200 GET /v1/portal/iserver/accounts
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|77ms
+-> request: /sso/ping
+-> GET /sso/ping,200|230ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|75ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|245ms
+-> request: /v1/api/tickle
+-> GET /v1/api/tickle,200|265ms
