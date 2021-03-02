@@ -1,2 +1,2 @@
 # IBKR-portfolio-retrieval
-Retrieving IBKR Portfolio Data
+Allowing Users To Retrieve IBKR Portfolio Data
