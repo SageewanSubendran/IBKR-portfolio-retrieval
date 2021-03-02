@@ -2,7 +2,7 @@
 Allowing Users To Retrieve IBKR Portfolio Data
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-##IBKR's Portfolio Retrieval Demo App (https://interactivebrokers.github.io/cpwebapi/)
+## IBKR's Portfolio Retrieval Demo App (https://interactivebrokers.github.io/cpwebapi/)
 
 Download and unzip the CP WebAPI gateway from the website: https://www.interactivebrokers.com/en/index.php?f=5041
 
